@@ -41,7 +41,7 @@ class HexToSwatchImage
      * @param array $hexColors
      * @return bool
      */
-    function createCanvas(array $hexColors)
+    public function createCanvas(array $hexColors)
     {
         $flag = false;
         $hexColorsCount = count($hexColors);
